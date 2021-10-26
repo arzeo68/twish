@@ -24,7 +24,6 @@ private:
     HDC _hCaptureDC = CreateCompatibleDC(_hDesktopDC);
     HBITMAP _hCaptureBitmap = CreateCompatibleBitmap(_hDesktopDC, _nScreenWidth, _nScreenHeight);
     RGBQUAD *_pPixels = new RGBQUAD[_nScreenWidth * _nScreenHeight];
-
 };
 
 
